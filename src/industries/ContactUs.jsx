@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 function ContactUs() {
   return (
     <div>
-      <div className="w-screen flex pb-0.5">
-        <div className="w-[45%] h-[35vh]">
+      <div className="w-screen  flex flex-col md:flex-row  pb-0.5">
+        <div className="md:w-[45%] md:h-[35vh]">
           <img
             src="images/contact-us.webp"
             alt=""
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="bg-neutral-950 w-[55%] flex flex-col justify-center pl-[10%] items-start space-y-8">
-          <h3 className="text-white text-3xl font-semibold w-3/4">
+        <div className="bg-neutral-950 md:w-[55%] flex flex-col justify-center pl-[10%] items-start space-y-8 py-20">
+          <h3 className="text-white text-3xl font-semibold md:w-[55%]">
             Step into the future with our technology.
           </h3>
           <Button

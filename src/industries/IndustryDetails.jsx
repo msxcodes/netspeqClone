@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function IndustryDetails() {
   return (
-    <div className="text-white font-semibold text-sm w-full space-y-2 flex flex-col">
+    <div className="text-white font-semibold text-sm w-screen mb-10 items-center md:items-start md:w-full space-y-2 flex flex-col">
       {IndustryData.map((data) => (
         <NavLink
           key={data.id}

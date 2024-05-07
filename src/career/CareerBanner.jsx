@@ -11,7 +11,7 @@ function CareerBanner() {
             <h1 className="mt-2 text-5xl font-bold text-black">Careers</h1>
             <p className="mt-2 mb-4 font-medium text-lg text-black">Join Us</p>
           </div>
-          <div className="">
+          <div className="hidden md:block">
             <p className="uppercase text-black/70 text-sm  ">
               <Link to={"/"}> Home </Link> | <span> Career </span>
             </p>
@@ -21,7 +21,7 @@ function CareerBanner() {
         <BannerFooter />
 
         <img
-          className="-z-10 absolute top-0 left-0  h-full w-full object-cover"
+          className="-z-10 absolute top-0 opacity-80 md:opacity-100 left-0  h-full w-full object-cover"
           src="images/career-banner.webp"
           alt=""
         />

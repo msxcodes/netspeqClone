@@ -2,7 +2,7 @@ import React from "react";
 
 function BannerFooter() {
   return (
-    <div className="bg-gray-900/50 flex justify-evenly absolute w-full bottom-0">
+    <div className="bg-gray-900/50 hidden md:flex justify-evenly absolute w-full bottom-0 ">
       <div className="text-gray-300 py-4 flex flex-col justify-center items-center">
         <h3 className="text-sm font-semibold text-white uppercase">
           contact us

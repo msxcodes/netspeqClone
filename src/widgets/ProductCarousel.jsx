@@ -5,7 +5,7 @@ function ProductCarousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        <div className="w-full h-[40vh] flex space-x-3">
+        <div className="w-full h-[40vh] flex space-x-3 ">
           <div className="w-full h-full">
             <img
               src="/images/product01.jpeg"

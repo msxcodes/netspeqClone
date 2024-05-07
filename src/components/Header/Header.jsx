@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className=" px-4 shadow">
-      <div className="relative mx-auto flex max-w-screen-xl flex-col py-3 sm:flex-row sm:items-center sm:justify-between">
-        <a className="flex items-center text-2xl font-black" href="/">
+      <div className="relative mx-auto flex max-w-screen-xl flex-col py-3 sm:flex-row sm:items-center sm:justify-between ">
+        <Link className="flex items-center text-2xl font-black" to="/">
           <img src="/images/logo.png" className="h-[55px]" />
-        </a>
-        <input className="peer hidden" type="checkbox" id="navbar-open" />
+        </Link>
+        <input className="peer hidden " type="checkbox" id="navbar-open" />
         <label
-          className="absolute right-0 mt-1 cursor-pointer text-xl sm:hidden"
+          className="absolute right-0 mt-3 cursor-pointer text-xl sm:hidden transition-all duration-300"
           htmlFor="navbar-open"
         >
           <span className="sr-only">Toggle Navigation</span>
@@ -31,7 +31,7 @@ function Header() {
         </label>
         <nav
           aria-label="Header Navigation"
-          className="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0"
+          className="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0 "
         >
           <ul className="flex flex-col nav-ul gap-y-4 sm:flex-row sm:gap-x-8">
             <li className="">
@@ -39,20 +39,20 @@ function Header() {
                 HOME
               </Link>
             </li>
-            <GoDotFill size={14} className="nav-icon" />
+            <GoDotFill size={14} className="nav-icon hidden md:block" />
             <li className="">
               <Link className="nav-link" to={"/industries"}>
                 {" "}
                 INDUSTRIES{" "}
               </Link>
             </li>
-            <GoDotFill size={14} className="nav-icon" />
+            <GoDotFill size={14} className="nav-icon hidden md:block" />
             <li className="">
               <Link className="nav-link" to="/career">
                 CAREER{" "}
               </Link>
             </li>
-            <GoDotFill size={14} className="nav-icon" />
+            <GoDotFill size={14} className="nav-icon hidden md:block" />
             <li className="sm:mt-0">
               <Link className="nav-link" to="/login">
                 LOGIN

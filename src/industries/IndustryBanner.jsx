@@ -11,14 +11,14 @@ function IndustryBanner() {
           src="images/industry-banner.webp"
           alt=""
         />
-        <div className="flex justify-around items-center">
+        <div className="flex justify-around items-center px-4 md:px-0">
           <div>
             <h1 className="mt-2 text-5xl font-bold text-white">Industries</h1>
-            <p className="mt-6 text-lg text-white">
+            <p className="mt-6 text-lg text-white font-semibold">
               New technology is common, new thinking is rare.
             </p>
           </div>
-          <div className="">
+          <div className="hidden md:block">
             <p className="uppercase text-gray-300 text-sm font-medium ">
               <Link to={"/"}> Home </Link> | <span> industry </span>
             </p>

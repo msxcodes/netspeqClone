@@ -3,9 +3,9 @@ import React from "react";
 function ContactForm() {
   return (
     <div className="max-w-[85rem] px-4 pt-4 pb-8 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <div className="max-w-wxl lg:max-w-8xl mx-auto">
+      <div className="max-w-8xl mx-auto">
         <div className="mt-12 grid items-center lg:grid-cols-3 gap-4 lg:gap-16">
-          <div className="flex flex-col  rounded-xl p-4 sm:p-6 lg:p-8 ">
+          <div className="flex flex-col rounded-xl md:p-6 lg:p-8 ">
             <h2 className="mb-8 text-md font-semibold text-gray-800 ">
               Send Us Message
             </h2>
@@ -88,7 +88,7 @@ function ContactForm() {
             </div>
           </div>
 
-          <div className="space-y-2 mb-8">
+          <div className="space-y-2 mb-8 p-2">
             <div className="mt-4 mb-4 font-semibold text-md xl:mb-4 text-black">
               Contact Info
             </div>

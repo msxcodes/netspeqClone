@@ -16,7 +16,7 @@ function HomePage() {
     <>
       <HomeCarousel />
       <HeroCard />
-      <div className="mt-[10%]">
+      <div className="mt-[65vh] md:mt-[15vh]">
         <ExpCard />
         <CoreValue />
       </div>

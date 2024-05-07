@@ -12,7 +12,7 @@ function IndustryPage() {
   return (
     <div>
       <IndustryBanner />
-      <div className="grid max-w-screen-lg mx-auto grid-cols-3 py-20">
+      <div className="grid max-w-screen-lg mx-auto md:grid-cols-3 py-20">
         <IndustryDetails />
         <Outlet />
       </div>

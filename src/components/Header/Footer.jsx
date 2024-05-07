@@ -9,20 +9,16 @@ function Footer() {
       <div className="mx-auto grid max-w-screen-2xl gap-y-8 gap-x-12 px-4 py-12 md:grid-cols-2 xl:grid-cols-4 xl:px-10">
         <div className="max-w-sm mt-8">
           <div className="mb-6 flex h-12 items-center space-x-2">
-            <span className="h-[7vh] ">
-              <img
-                src="/images/footer-logo.png"
-                alt=""
-                className="h-full w-full"
-              />
+            <span className="h-[7vh] w-[50vw] ">
+              <img src="/images/footer-logo.png" alt="" className="h-full " />
             </span>
           </div>
-          <div className="text-gray-300 text-xs leading-6">
+          <div className="text-gray-300 text-xs leading-6 ">
             We are IT consultancy and Digital Integrator Company providing best
             in class & cutting edge technology today, for tomorrow.
           </div>
         </div>
-        <div className="ml-12">
+        <div className="md:ml-12">
           <div className="mt-4 mb-2  font-semibold xl:mb-4 text-white text-lg">
             Quick Links
           </div>

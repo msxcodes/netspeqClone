@@ -6,16 +6,22 @@ function HomeCarousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        <div className="h-[90vh]">
-          <img src="/images/hero2.jpeg" alt="" className="size-full" />
+        <div className="h-[90vh] ">
+          <img
+            src="/images/hero2.jpeg"
+            alt=""
+            className="size-full object-cover"
+          />
         </div>
         <Carousel.Caption className=" md:block">
           <div className="flex flex-col w-full space-y-3 items-start absolute top-[-50vh]">
-            <p className="">
+            <p className="hidden md:block ">
               Expertly Designed Solutions to Streamline Your Business Processes
             </p>
-            <p className="text-5xl font-bold">Innovating IT Solution </p>
-            <p className=" text-5xl font-bold">for Modern Businesses</p>
+            <div className="flex flex-col items-start text-2xl mb-4  font-semibold md:text-5xl md:font-bold">
+              <p className="">Innovating IT Solution </p>
+              <p className="">for Modern Businesses</p>
+            </div>
             <Link to={"/contactus"}>
               <Button
                 variant="outline-light"
@@ -29,18 +35,22 @@ function HomeCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <div className="h-[90vh]">
-          <img src="/images/hero1.jpeg" className="carousel-img" alt="" />
+          <img
+            src="/images/hero1.jpeg"
+            className="size-full object-cover"
+            alt=""
+          />
         </div>
-        <Carousel.Caption className="hidden md:block">
+        <Carousel.Caption className="">
           <div className="flex flex-col w-full space-y-4 items-start absolute top-[-50vh]">
-            <p className="">
+            <p className="hidden md:block">
               We promise strong business foundation to deliver greater
               efficiency and sustainability
             </p>
-            <p className=" text-5xl font-bold">Driving Transformation</p>
-            <p className=" text-red-500  text-5xl font-bold">
-              with Data and Intelligence
-            </p>
+            <div className="flex flex-col items-start text-2xl mb-4  font-semibold md:text-5xl md:font-bold">
+              <p className="">Driving Transformation</p>
+              <p className=" text-red-500  ">with Data and Intelligence</p>
+            </div>
             <Link to={"/contactus"}>
               <Button
                 variant="outline-light"

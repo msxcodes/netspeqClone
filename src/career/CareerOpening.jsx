@@ -19,7 +19,7 @@ function CareerOpening() {
           </div>
 
           <div className="sm:order-2">
-            <h2 className="text-lg font-semibold md:text-xl lg:text-2xl lg:leading-tight xl:text-3xl xl:leading-tight text-black ">
+            <h2 className="text-3xl font-semibold lg:leading-tight xl:text-4xl xl:leading-tight text-black ">
               Join us in connecting the dots to shape tomorrow.
             </h2>
 

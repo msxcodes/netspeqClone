@@ -1,12 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function LoginPage() {
   return (
     <div className="bg-blue-50 w-screen h-screen flex justify-center flex-col items-center">
-      <div className="w-[200px] mb-4">
-        <img src="images/logo.png" alt="" className="w-full h-full" />
-      </div>
-      <form className="max-w-[400px] relative space-y-1 rounded-md bg-white p-6 shadow-xl lg:p-10 border border-gray-100 ">
+      <Link to={"/"}>
+        <div className="w-[200px] mb-4">
+          <img src="images/logo.png" alt="" className="w-full h-full" />
+        </div>
+      </Link>
+      <form className="max-w-[400px] relative space-y-1 rounded-md bg-white p-6 shadow-xl lg:p-10 border border-gray-100 mx-4 md:mx-0">
         <h1 className="text-xl text-center text-[#01649b] font-medium mb-4 lg:text-2xl">
           Login to Your Account
         </h1>

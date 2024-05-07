@@ -5,7 +5,7 @@ import ProductBtn from "./ProductBtn";
 function OurProducts() {
   return (
     <>
-      <div className=" px-4 mx-auto bg-gray-900">
+      <div className="py-12 md:py-0 px-4 mx-auto bg-gray-900 ">
         <div className="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:items-center md:gap-2 xl:gap-12">
           <div className="sm:mt-10 lg:mt-0">
             <div className="space-y-6 sm:space-y-8">

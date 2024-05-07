@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function ProductBtn() {
   return (
-    <div className="h-[12vh] w-full bg-[#01649b] flex justify-center items-center">
+    <div className="h-[12vh] w-full bg-[#01649b] flex justify-center items-center ">
       <Link to="" className="">
         <Button
           variant="outline-light"

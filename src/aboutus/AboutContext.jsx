@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutContext() {
   return (
-    <div className="w-screen py-20 flex justify-center items-center">
+    <div className="w-screen py-20 flex justify-center items-center px-6 md:px-0">
       <div className="max-w-screen-xl">
         <p className="text-xs leading-6 text-neutral-600">
           <strong> Netspeq Solutions </strong>

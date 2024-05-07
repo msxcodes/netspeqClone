@@ -4,8 +4,8 @@ import { MdPeopleAlt } from "react-icons/md";
 
 function HeroCard() {
   return (
-    <div className="absolute bottom-[-15%] left-[20%]  text-white  grid  md:grid-cols-3 w-[60vw] h-[25vh] z-10">
-      <div className="bg-[#01649b] flex flex-col justify-evenly items-center  py-4">
+    <div className="absolute bottom-[-20vh] md:bottom-[-15%] px-[10vw] space-y-6 md:space-y-0 md:px-[15vw] text-white  grid  md:grid-cols-3 w-screen h-[25vh] z-10 ">
+      <div className="bg-[#01649b] flex flex-col justify-evenly items-center  py-4 ">
         <h3 className="text-lg font-semibold"> Time Bound & Trustable</h3>
         <GoClock size={80} />
         <p className="text-gray-300 text-sm text-wrap text-center ">

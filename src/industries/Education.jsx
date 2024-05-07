@@ -8,7 +8,7 @@ function Education() {
   };
 
   return (
-    <div className="w-full space-y-3 col-span-2">
+    <div className="w-full space-y-3 col-span-2 px-8 md:px-0">
       <div>
         <img src={data.img} alt="" />
       </div>
